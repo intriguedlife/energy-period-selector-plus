@@ -17,10 +17,10 @@ import {
   startOfToday,
   startOfWeek,
   startOfYear,
-} from 'date-fns/esm';
+} from 'date-fns';
 import { UnsubscribeFunc } from 'home-assistant-js-websocket';
 import { html, LitElement, nothing } from 'lit';
-import { customElement, property, state } from 'lit/decorators';
+import { customElement, property, state } from 'lit/decorators.js';
 import { firstWeekdayIndex } from './datetime/first-weekday';
 import { formatDate, formatDateMonthYear, formatDateShort, formatDateYear } from './datetime/format-date';
 import { toggleAttribute, ToggleButton } from './types';

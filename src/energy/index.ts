@@ -9,7 +9,7 @@ import {
   endOfYesterday,
   startOfToday,
   startOfYesterday,
-} from 'date-fns/esm';
+} from 'date-fns';
 import { Collection, getCollection } from 'home-assistant-js-websocket';
 import { HomeAssistant } from '../type/home-assistant';
 import { ConfigEntry, getConfigEntries } from './config-entries';

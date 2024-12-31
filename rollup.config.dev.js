@@ -1,9 +1,9 @@
-import resolve from "rollup-plugin-node-resolve";
-import typescript from "rollup-plugin-typescript2";
-import babel from "rollup-plugin-babel";
-import serve from "rollup-plugin-serve";
-import { terser } from "rollup-plugin-terser";
+import resolve from "@rollup/plugin-node-resolve";
+import terser from '@rollup/plugin-terser';
 import json from '@rollup/plugin-json';
+import babel from '@rollup/plugin-babel';
+import typescript from "rollup-plugin-typescript2";
+import serve from "rollup-plugin-serve";
 
 export default {
   input: ["src/energy-period-selector-plus.ts"],

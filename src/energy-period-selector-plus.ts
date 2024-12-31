@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { html, LitElement, nothing } from 'lit';
-import { customElement, property, state } from 'lit/decorators';
+import { customElement, property, state } from 'lit/decorators.js';
 import { HomeAssistant } from './type/home-assistant';
 import { LovelaceCard } from './type/lovelace-card';
 import { EnergyPeriodSelectorPlusConfig } from './energy-period-selector-plus-config';
